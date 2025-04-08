@@ -12,7 +12,7 @@ This repository includes a collection of Java exercises designed to practice uni
 - 🧪 JUnit 5
 - ✅ AssertJ
 - 🧰 Maven (Project Management & Build Tool)
-- 🖥️ IDE: IntelliJ IDEA or Eclipse
+- 🖥️ IDE: IntelliJ IDEA 
 
 ---
 
