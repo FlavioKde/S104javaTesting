@@ -29,7 +29,7 @@ This repository includes a collection of Java exercises designed to practice uni
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/java-testing-project.git
+   git clone https://github.com/FlavioKde/S104javaTesting.git
    ```
 
 2. Navigate to the project directory:
@@ -161,4 +161,4 @@ Happy Coding! 🚀
 
 ---
 
-Would you like this in a downloadable `.md` file or help uploading it to your GitHub repository?
+
