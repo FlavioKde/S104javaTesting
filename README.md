@@ -21,7 +21,7 @@ This repository includes a collection of Java exercises designed to practice uni
 - Java JDK 17 or higher
 - Maven 3.6 or higher
 - Git
-- IDE (e.g., IntelliJ or Eclipse)
+- IDE (e.g., IntelliJ)
 
 ---
 
