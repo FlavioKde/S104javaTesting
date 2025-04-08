@@ -157,8 +157,3 @@ Contributions are welcome!
 ---
 
 Happy Coding! 🚀
-```
-
----
-
-
