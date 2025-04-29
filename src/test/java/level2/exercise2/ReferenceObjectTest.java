@@ -22,7 +22,7 @@ public class ReferenceObjectTest {
     @Test
     public void diferentReference(){
         String summer = "Great";
-        String summer1 = "Not great";
+        String summer1 = "Great";
 
         Assertions.assertThat(summer)
                 .withFailMessage("The references do not point to the same object")

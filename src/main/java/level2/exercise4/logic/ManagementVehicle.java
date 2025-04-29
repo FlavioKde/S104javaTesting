@@ -24,18 +24,6 @@ public class ManagementVehicle {
 
     }
 
-    public ShopMotorcycleAndCar getShopMotorcycleAndCar() {
-        return shopMotorcycleAndCar;
-    }
-
-    public Motorcycle getMotorcycle() {
-        return motorcycle;
-    }
-
-    public Car getCar() {
-        return car;
-    }
-
     public void printMotorcyclesAndCar() {
         for (Vehicle vehicle : shopMotorcycleAndCar.getVehicleList()) {
             if (vehicle instanceof Motorcycle) {

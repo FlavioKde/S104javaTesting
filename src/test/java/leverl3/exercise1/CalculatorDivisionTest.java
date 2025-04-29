@@ -13,8 +13,6 @@ public class CalculatorDivisionTest {
 
         Calculator calculator = new Calculator();
 
-        double result = calculator.division(5,0);
-
         assertThatExceptionOfType(ArithmeticException.class)
                 .isThrownBy(() -> calculator.division(5, 0))
                 .withMessage("Cannot divide by zero");

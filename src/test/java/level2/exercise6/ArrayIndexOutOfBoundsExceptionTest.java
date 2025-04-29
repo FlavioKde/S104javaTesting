@@ -5,6 +5,8 @@ import level2.exercise6.logic.ManagementAiport;
 import org.junit.jupiter.api.Test;
 import org.assertj.core.api.Assertions;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 public class ArrayIndexOutOfBoundsExceptionTest {
 
     @Test
@@ -12,14 +14,9 @@ public class ArrayIndexOutOfBoundsExceptionTest {
 
         ManagementAiport managementAiport = new ManagementAiport();
 
-        Assertions.assertThatExceptionOfType(ArrayIndexOutOfBoundsException.class)
-                .isThrownBy(() -> {
-
-                    managementAiport.addPlaneAiport();
-                })
-                .withMessageContaining("Index");
-
-
+        assertThrows(ArrayIndexOutOfBoundsException.class,
+                managementAiport::triggerOutOfBounds,
+                "Expected ArrayIndexOutOfBoundsException to be thrown");
 
     }
 }

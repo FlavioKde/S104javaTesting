@@ -11,9 +11,7 @@ public class CalculationID {
         this.numbers = numbers;
     }
 
-    public int getNumberId() {
-        return numbers;
-    }
+
 
     public String calculateLetter(int numberID){
 

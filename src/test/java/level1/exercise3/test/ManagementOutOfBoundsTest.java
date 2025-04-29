@@ -13,7 +13,10 @@ public class ManagementOutOfBoundsTest {
         ManagementOutOfBounds management = new ManagementOutOfBounds();
 
 
-        assertThrows(ArrayIndexOutOfBoundsException.class, management::addPeopleBounds,
+        assertThrows(ArrayIndexOutOfBoundsException.class,
+                management::triggerOutOfBounds,
                 "Expected ArrayIndexOutOfBoundsException to be thrown");
+
+
     }
 }

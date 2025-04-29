@@ -30,12 +30,10 @@ public class Calculator {
     }
     public double division(double a, double b){
 
-
-        if(b == 0){
-            throw new ArithmeticException("cannot be divided by zero");
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero");
         }
-        result = a / b;
-        return roundToTwoDecimals(result);
+       return roundToTwoDecimals( a / b);
 
     }
     private double roundToTwoDecimals(double value) {

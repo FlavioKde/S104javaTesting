@@ -7,7 +7,6 @@ public class MainCalculator {
     public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
-        PrintResult printResult = new PrintResult();
 
         PrintResult.resultPrint(calculator.addition(5,9));
         PrintResult.resultPrint(calculator.subtraction(89,45));

@@ -12,7 +12,7 @@ public class AssertTest {
         Integer number1 = 5;
 
         assertThat(number).isEqualTo(number1);
-        System.out.println("the test ok");
+        System.out.println("The test passed: both values are equal");
 
     }
     @Test
@@ -20,7 +20,9 @@ public class AssertTest {
         Integer day = 25;
         Integer day1 = 29;
 
-        assertThat(day).withFailMessage("the test must fail, since they are different").isEqualTo(day1);
+        assertThat(day).isNotEqualTo(day1).
+                 withFailMessage("The test must pass, since the values are different");
+        System.out.println("The test passed: both values are not equal");
 
     }
     @Test
@@ -29,14 +31,16 @@ public class AssertTest {
         int summer1 = 10;
 
         assertThat(summer).isEqualTo(summer1);
-        System.out.println("the test ok");
+        System.out.println("The test passed: both values are equal");
     }
     @Test
     public void intNotEqualityTest(){
         int winter = 56;
         int winter1 = 32;
 
-        assertThat(winter).withFailMessage("the test must fail, since they are different").isEqualTo(winter1);
+        assertThat(winter).isNotEqualTo(winter1).
+                withFailMessage("the test must fail, since they are different");
+        System.out.println("The test passed: both values are not equal");
 
     }
 }

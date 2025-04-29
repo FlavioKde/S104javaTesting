@@ -25,9 +25,6 @@ public class ManagementCalculationID {
 
     }
 
-    public List<Integer> getIdNumbers() {
-        return idNumbers;
-    }
     public void calculateAndPrintID(){
         System.out.println("DNI Calculations:");
         for(int dni: idNumbers){
